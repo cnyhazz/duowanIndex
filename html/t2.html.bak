@@ -1,0 +1,112 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<style>
+			*{
+				margin:0;
+				padding:0;
+				}
+			.one{
+				width:400px;
+				height:150px;
+				font-size:13px;
+				border-bottom:1px dashed #bec0c2;
+				}
+				.span1{
+					display:inline-block;
+					width:30px;
+					height:20px;
+					text-align:center;
+					line-height:20px;
+					color:white;
+					background-color:#EC4F12;
+					}
+				ul{
+					list-style:none;
+					}
+				ul li{
+					width:400px;
+					height:20px;
+					margin:10px 0 0 0;
+					}
+				ul li a{
+					line-height:20px;
+					text-decoration:none;
+					margin:0 0 0 5px;
+					color:#222222;
+					}
+				ul li a:hover{
+					text-decoration:underline;
+					color:#00a786;
+					}
+				.span2{
+					margin:0 0 0 100px;
+					width:340px;
+					height:20px;
+					color:gray;
+					}
+			</style>
+		</head>
+	<body>
+		<div class="one">
+			<ul>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="one">
+			<ul>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="one">
+			<ul>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				<li>
+					<span class="span1"><b>杂谈</b></span><a href="javascript:void(0)">总决赛十日谈 追忆给我们感动的全华班</a><span class="span2">10-05</span>
+					</li>
+				</ul>
+			</div>
+			
+		</body>
+	</html>

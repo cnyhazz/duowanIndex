@@ -1,0 +1,223 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<style type="text/css">
+			*{
+				margin:0;
+				padding:0;
+				}
+			.spone{
+				width:851px;
+				height:349px;
+				font-size:13px;
+				color:#222222;
+				}
+			.container{
+				display:block;
+				width:180px;
+				height:140px;
+				float:left;
+				margin:20px 0 0 20px;
+				}
+			.container p{
+				margin:5px 0 0 0;
+				}
+				.imgs{
+					width:180px;
+					height:100px;
+					position:relative;
+					border:1px solid white;
+					}
+				.imgs img{
+						width:180px;
+						height:100px;
+						}
+				.msg{
+					width:180px;
+					height:20px;
+					position:absolute;
+					top:80px;
+					text-align:center;
+					line-height:20px;
+					}
+				.msg img{
+					width:20px;
+					height:20px;
+					float:left;
+					}
+				.msg p{
+					width:40px;
+					height:20px;
+					margin:0 0 2px 0;
+					float:right;
+					color:white;
+					font-size:12px;
+					}
+				.zao{
+					position:absolute;
+					top:0;
+					left:0;
+					filter:Alpha(opacity=60);
+					opacity:0.7;
+					display:none;
+					cursor:pointer;
+					}
+			</style>
+			<script type="text/javascript">
+				window.onload = function(){
+					var imgitems = new Array();
+					var zaoitems = new Array();
+					var imgnum = zaonum = 0;
+					var a=0;
+					var items = document.getElementsByTagName("div");
+					for(i=0;i<items.length;i++){
+						if(items[i].className == "imgs"){
+							imgitems[imgnum] = items[i];
+							imgnum++;
+							}
+						}
+						
+					for(i=0;i<imgitems.length;i++){
+						imgitems[i].onmouseover = function(){
+							//ff下，换行也会认为子元素
+							cleanWhitespace(this);
+							this.childNodes.item(2).style.display = "block";
+							this.style.borderColor = "#00a786";
+							this.parentNode.style.color = "#00a786";
+							}
+						imgitems[i].onmouseout = function(){
+							this.childNodes.item(2).style.display = "none";
+							this.style.borderColor = "white";
+							this.parentNode.style.color = "#222222";
+							}
+						}
+					
+					}
+					
+					//ff下清除空白节点函数
+					function cleanWhitespace(node) {
+              var notWhitespace = /\S/;
+              for (var i=0; i < node.childNodes.length; i++) {
+              var childNode = node.childNodes[i];
+              if ((childNode.nodeType == 3)&&(!notWhitespace.test(childNode.nodeValue))) {
+              node.removeChild(node.childNodes[i]);
+              i--;
+               }
+              if (childNode.nodeType == 1) {
+              cleanWhitespace(childNode);
+                }
+               }
+            } 
+				</script>
+		</head>
+	<body>
+		<div class="spone">
+			<div class="container">
+				<div class="imgs">
+					<img src="../imgs/sp5.jpg" />
+					<div class="msg">
+						<img src="../imgs/spb.png" />
+						<p>02:58</p>
+						</div>
+					<div class="zao" id="zao">
+						<img src="../imgs/spzao.jpg" />
+						</div>
+					</div>
+				<p>专访CLG上单 亚洲队伍没有发挥出水平</p>
+				</div>
+			
+			<div class="container">
+				<div class="imgs">
+					<img src="../imgs/sp5.jpg" />
+					<div class="msg">
+						<img src="../imgs/spb.png" />
+						<p>02:58</p>
+						</div>
+					<div class="zao" id="zao">
+						<img src="../imgs/spzao.jpg" />
+						</div>
+					</div>
+				<p>专访CLG上单 亚洲队伍没有发挥出水平</p>
+				</div>
+				<div class="container">
+				<div class="imgs">
+					<img src="../imgs/sp5.jpg" />
+					<div class="msg">
+						<img src="../imgs/spb.png" />
+						<p>02:58</p>
+						</div>
+					<div class="zao" id="zao">
+						<img src="../imgs/spzao.jpg" />
+						</div>
+					</div>
+				<p>专访CLG上单 亚洲队伍没有发挥出水平</p>
+				</div>
+				<div class="container">
+				<div class="imgs">
+					<img src="../imgs/sp5.jpg" />
+					<div class="msg">
+						<img src="../imgs/spb.png" />
+						<p>02:58</p>
+						</div>
+					<div class="zao" id="zao">
+						<img src="../imgs/spzao.jpg" />
+						</div>
+					</div>
+				<p>专访CLG上单 亚洲队伍没有发挥出水平</p>
+				</div>
+				<div class="container">
+				<div class="imgs">
+					<img src="../imgs/sp5.jpg" />
+					<div class="msg">
+						<img src="../imgs/spb.png" />
+						<p>02:58</p>
+						</div>
+					<div class="zao" id="zao">
+						<img src="../imgs/spzao.jpg" />
+						</div>
+					</div>
+				<p>专访CLG上单 亚洲队伍没有发挥出水平</p>
+				</div>
+				<div class="container">
+				<div class="imgs">
+					<img src="../imgs/sp5.jpg" />
+					<div class="msg">
+						<img src="../imgs/spb.png" />
+						<p>02:58</p>
+						</div>
+					<div class="zao" id="zao">
+						<img src="../imgs/spzao.jpg" />
+						</div>
+					</div>
+				<p>专访CLG上单 亚洲队伍没有发挥出水平</p>
+				</div>
+				<div class="container">
+				<div class="imgs">
+					<img src="../imgs/sp5.jpg" />
+					<div class="msg">
+						<img src="../imgs/spb.png" />
+						<p>02:58</p>
+						</div>
+					<div class="zao" id="zao">
+						<img src="../imgs/spzao.jpg" />
+						</div>
+					</div>
+				<p>专访CLG上单 亚洲队伍没有发挥出水平</p>
+				</div>
+				<div class="container">
+				<div class="imgs">
+					<img src="../imgs/sp5.jpg" />
+					<div class="msg">
+						<img src="../imgs/spb.png" />
+						<p>02:58</p>
+						</div>
+					<div class="zao" id="zao">
+						<img src="../imgs/spzao.jpg" />
+						</div>
+					</div>
+				<p>专访CLG上单 亚洲队伍没有发挥出水平</p>
+				</div>
+				
+			</div>
+		</body>
+	</html>
